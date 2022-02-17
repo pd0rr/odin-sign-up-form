@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+}
+
 .splash-image {
     background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
     height: 100vh;
