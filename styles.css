@@ -71,6 +71,7 @@ p.splash-img-attribution a {
     font-weight: 600;
     font-family: 'Arial', sans-serif;
     font-size: 1.5rem;
+    width: 100%;
 }
 
 .right-column p a{
@@ -108,4 +109,11 @@ form label {
 .right-column button {
     width: 20rem;
     margin-left: var(--column-padding);
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
 }
