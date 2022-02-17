@@ -8,6 +8,7 @@
     height: 100vh;
     width: 30vw;
     background-size: cover;
+    position: relative;
 }
 
 @font-face {
@@ -20,4 +21,16 @@
     font-family: norseBold;
     color: white;
     font-size: 5rem;
+}
+
+img.odin-logo {
+    height: 7rem;
+}
+
+p.splash-img-attribution {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
 }
