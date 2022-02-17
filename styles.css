@@ -65,9 +65,12 @@ p.splash-img-attribution a {
 
 .right-column > p {
     padding-left: var(--column-padding);
-    font-size: 1.5rem;
+}
+
+.right-column p {
     font-weight: 600;
     font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
 }
 
 .right-column form {
