@@ -92,4 +92,5 @@ form label {
 
 .right-column button {
     width: 20rem;
+    margin-left: var(--column-padding);
 }
