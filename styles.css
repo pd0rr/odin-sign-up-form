@@ -73,6 +73,12 @@ p.splash-img-attribution a {
     font-size: 1.5rem;
 }
 
+.right-column p a{
+    width: 100%;
+    text-decoration: none;
+    color: darkgreen;
+}
+
 .right-column form {
     display: flex;
     flex-wrap: wrap;
@@ -88,9 +94,6 @@ p.splash-img-attribution a {
     margin-bottom: 1rem;
 }
 
-form p {
-    width: 100%;
-}
 
 form label {
     font-family: Arial, sans-serif;
