@@ -41,3 +41,7 @@ p.splash-img-attribution {
     text-align: center;
     width: 100%;
 }
+
+p.splash-img-attribution a {
+    color: white
+}
