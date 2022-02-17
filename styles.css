@@ -21,10 +21,17 @@
     font-family: norseBold;
     color: white;
     font-size: 5rem;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img.odin-logo {
     height: 7rem;
+    margin: 10px 0;
 }
 
 p.splash-img-attribution {
