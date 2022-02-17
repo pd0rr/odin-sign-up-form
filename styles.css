@@ -68,12 +68,16 @@ p.splash-img-attribution a {
 }
 
 .right-column form {
-    height: 30vh;
     display: flex;
     flex-wrap: wrap;
     column-gap: 10rem;
+    row-gap: 2rem;
     background-color: white;
     padding-left: var(--column-padding);
+    box-shadow: 0 3px 4px 2px lightgray;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 form p {
@@ -83,5 +87,9 @@ form p {
 form label {
     display: flex;
     flex-direction: column;
+    width: 20rem;
+}
+
+.right-column button {
     width: 20rem;
 }
