@@ -93,9 +93,13 @@ form p {
 }
 
 form label {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     width: 20rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
 }
 
 .right-column button {
