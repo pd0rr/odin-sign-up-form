@@ -1,3 +1,7 @@
+:root {
+    --column-padding: 5rem;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +9,6 @@
 
 body {
     display: flex;
-    gap: 5rem;
     background-color: #FAFAFA;
 }
 
@@ -57,6 +60,11 @@ p.splash-img-attribution a {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 5rem;
+}
+
+.right-column > p {
+    padding-left: var(--column-padding);
 }
 
 .right-column form {
@@ -64,6 +72,8 @@ p.splash-img-attribution a {
     display: flex;
     flex-wrap: wrap;
     column-gap: 10rem;
+    background-color: white;
+    padding-left: var(--column-padding);
 }
 
 form p {
