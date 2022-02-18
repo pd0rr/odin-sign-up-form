@@ -124,6 +124,13 @@ input.focus {
     box-shadow: 4px 4px 4px #E5E7EB;
 }
 
+label p.error-note {
+    color: red;
+    font-size: 0.9rem;
+    font-weight: initial;
+    letter-spacing: normal;
+}
+
 .right-column button {
     width: 20rem;
     margin-left: var(--column-padding);
