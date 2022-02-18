@@ -106,14 +106,22 @@ form label {
     letter-spacing: 0.1rem;
 }
 
+form input {
+    font-size: 1rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 2px #E5E7EB;
+}
+
 .right-column button {
     width: 20rem;
     margin-left: var(--column-padding);
-    background-color: darkgreen;
+    background-color: #596D48;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px;
-    font-size: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
